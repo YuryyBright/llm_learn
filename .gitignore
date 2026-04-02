@@ -2,4 +2,3 @@
 /chunk-classifier-onnx
 /checkpoints
 ./venv
-*.jsonl
