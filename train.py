@@ -83,7 +83,7 @@ def compute_metrics(eval_pred):
 # warmup_steps — перші N кроків lr повільно зростає (стабільніше навчання)
 args = TrainingArguments(
     output_dir="./checkpoints",
-    num_train_epochs=15,
+    num_train_epochs=20,
     per_device_train_batch_size=16,
     per_device_eval_batch_size=32,
     learning_rate=2e-5,

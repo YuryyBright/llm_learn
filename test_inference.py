@@ -5,7 +5,7 @@ import numpy as np
 from transformers import pipeline, AutoTokenizer
 from optimum.onnxruntime import ORTModelForSequenceClassification
 
-CHECKPOINT_PATH = "./checkpoints/checkpoint-55"
+CHECKPOINT_PATH = "./checkpoints/checkpoint-209"
 ONNX_DIR = "./chunk-classifier-onnx"
 QUANTIZED_DIR = "./chunk-classifier-onnx-int8"
 

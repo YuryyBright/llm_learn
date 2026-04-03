@@ -4,7 +4,7 @@ from transformers import AutoTokenizer
 import os
 
 # Шлях до вашої найкращої моделі PyTorch (після train.py)
-CHECKPOINT_PATH = "./checkpoints/checkpoint-55" # Замініть на свій
+CHECKPOINT_PATH = "./checkpoints/checkpoint-209" # Замініть на свій
 ONNX_DIR = "./chunk-classifier-onnx"
 QUANTIZED_DIR = "./chunk-classifier-onnx-int8"
 
